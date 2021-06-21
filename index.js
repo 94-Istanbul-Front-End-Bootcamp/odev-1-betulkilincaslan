@@ -1,10 +1,13 @@
 /* Show my Info */
 let infoButton = document.querySelector("#getInfo");
-let nameSurname = document.querySelector("#nameSurname");
-let age = document.querySelector("#age");
+let nameSurnameArea = document.querySelector("#nameSurname");
+let ageArea = document.querySelector("#age");
+let name = "Betül";
+let surname = "KILINÇASLAN";
+let age = 27;
 infoButton.addEventListener("click", () => {
-  nameSurname.innerText = "Betül KILINÇASLAN";
-  age.innerText = "27";
+  nameSurnameArea.innerText = `${name} ${surname}`;
+  ageArea.innerText = `${age}`;
   infoButton.style.display = "none";
 });
 /* Show my Info */
